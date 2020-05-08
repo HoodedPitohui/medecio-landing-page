@@ -1,0 +1,35 @@
+/*navbar structure code*/
+/*Overall sublist element organization*/
+li.nav {
+  display: inline;
+}
+/*Handles the text around the navbar*/
+a.nav  {
+  display: inline-block;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 1em;
+  vertical-align: middle;
+  padding: 20px;
+  text-align: center;
+}
+/*Sets the overall color of the navbar, handles overall values*/
+ul.nav {
+  margin: 0;
+  list-style: none;
+  background-color: #315e71;
+  height: 60px;
+  text-align: center;
+}
+/*logo in the navbar*/
+li.logo {
+  display: inline;
+  position: relative;
+  float: left;
+}
+/*Another part of logo in the navbar*/
+/*Note important that the size of the image is correct*/
+img.logo  {
+  display: inline-block;
+  padding: 10px;
+}
