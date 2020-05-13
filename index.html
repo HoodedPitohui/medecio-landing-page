@@ -2,10 +2,12 @@
   <head>
     <title>Index</title>
     <!--CSS Links -->
-    <link rel = "stylesheet" href = "navbar.css"/>
+    <link rel = "stylesheet" href = "css/navbar.css"/>
     <link rel = "stylesheet" href = "css/body.css"/>
     <link rel = "stylesheet" href = "css/headings.css"/>
-    <link rel = "stylesheet" href = "images.css"/>
+    <link rel = "stylesheet" href = "css/images.css"/>
+    <link rel = "stylesheet" href = "css/buttons.css"/>
+    <link rel = "stylesheet" href = "css/footer.css"/>
     <!--Insert Google ad sense things here -->
   </head>
   <body>
@@ -29,6 +31,12 @@
         <li class = "nav">
           <a class = "nav" href = "#contact">Contact Us</a>
         </li>
+        <li class = "nav">
+          <button onclick ="window.location.href ='https://discourse.medecio.com/latest';" class = "nav-button" type = "button">Sign Up</button>
+        </li>
+        <li class = "nav">
+          <button onclick = "window.location.href = 'https://discourse.medecio.com/';" type = "button" class = "nav-button">Log In</button>
+        </li>
       </ul>
       <!--End of Navigation Bar Code -->
       <br/>
@@ -37,8 +45,12 @@
       <!--First Section -->
       <section id = "home">
         <h1 class = "subtitle"> Medecio Forum </h1>
-        <h6 class = "subgroup"> A friendly, supportive forum based around providing lifestyle tips to
-        people to improve health and well-being </h6>
+        <h6 class = "subgroup"> A friendly, supportive forum based around providing lifestyle tips to people to improve health and well-being.</h6>
+        <div class = "forum-button-container">
+          <button onclick = "window.location.href = 'https://discourse.medecio.com/';" type = "button" class = "go-forum">Go To Forum</button>
+        </div>
+        <br/>
+        <br/>
         <br/>
         <img src = "index/images/people_collaboration.png" class = "section1"/> <!--Add title/subtitle to this -->
         <!--Turn the below code into a button with a href -->
@@ -48,8 +60,10 @@
       <br/>
       <section class = "section2" id = "about">
         <h1 class = "subtitle">About</h1>
-        <h6 class = "subgroup">A forum built around helping patients receive the help they need, no
-        matter where they are</h6>
+        <h6 class = "subgroup">Medecio’s online forum is a free, crowdsourced online service that enables patients
+          to share medical experiences and information. To improve the medical accuracy of the information exchanged on the platform,
+          Medecio has a professional moderation team that reviews any shared information. To learn more about the forum, as well as
+          to sign up & contribute, visit us today!</h6>
         <!--Use of flexboxes for 3 column layout-->
         <div class = "section2-general">
           <div class = "section2-images">
@@ -90,7 +104,7 @@
           <div class = "text-image-container">
             <img class = "question" src = "index/images/bgimage3.png"/>
             <div class = "over-element">
-              <h1 class = "subtitle">Do you have any questions?</h1>
+              <h1 class = "subtitle">Do You Have Any Questions?</h1>
               <h1 class = "subtitle">Contact Us</h1>
             </div>
           </div>
@@ -106,10 +120,10 @@
             </div>
             <div class = "section2-images">
               <h3>Our Guidelines</h3>
-              <p>About</p>
-              <p>Terms</p>
-              <p>Privacy Policy</p>
-              <p>FAQ</p>
+              <p><a href = "https://discourse.medecio.com/about">About </a></p>
+              <p><a href = "https://discourse.medecio.com/tos">Terms </a></p>
+              <p><a href = "https://discourse.medecio.com/privacy">Privacy </a></p>
+              <p><a href = "https://discourse.medecio.com/faq">FAQs </a></p>
             </div>
             <div class = "section2-images">
               <h3>Our Address</h3>

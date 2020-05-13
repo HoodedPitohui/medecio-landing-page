@@ -1,4 +1,6 @@
-/*Does a hard reset of the webpage so the white space at the top is eliminated*/
+/* Does a hard reset of the webpage so the white space at the top is eliminated */
+/* * is fancy HTML5 attribute that selects every element */
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap";
 *  {
   margin: 0;
   padding: 0;
@@ -7,46 +9,42 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-}
-/*Subtitles are used in between sections, ensures formatting is constant*/
-h1.subtitle {
-  text-align: center;
-  padding: 25px 50px 15px 50px;
-  /*top, right, bottom, left padding*/
-  font-size: 40px;
   font-family: 'Poppins', sans-serif;
 }
-h6.subgroup {
-  text-align: center;
-  color: #6e6e6e;
-  font-size: 1.0625em;
-}
-/*Following is useful for flexbox elements, which are useful HTML5 features*/
+/* Following is useful for flexbox elements, which are useful HTML5 features */
 div.section2-images {
   text-align: center;
   color: black;
   width: 400px;
 }
+/*div.section2-images p {
+  padding-bottom: 60px;
+}*/
 div.section2-general  {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
-/*div.leftsection3  {
-  line-height: 200px;
-  height: 200px;
-  border: 1px solid black;
+div.leftsection3  {
+  padding: 250px 50px;
 }
-div.leftsection3 p  {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
-div.leftsection3 h3 {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}*/
+/*Grey section code formatting*/
 section.section2  {
-  background-color: #fff
+  background-color: #F4F4F4;
+}
+/* This is supposed to format the text including "contact us" over its respective
+image */
+div.over-element  {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+div.text-image-container  {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+div.forum-button-container  {
+  width: 100%;
 }
