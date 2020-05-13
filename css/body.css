@@ -1,5 +1,6 @@
 /* Does a hard reset of the webpage so the white space at the top is eliminated */
 /* * is fancy HTML5 attribute that selects every element */
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap";
 *  {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 /* Following is useful for flexbox elements, which are useful HTML5 features */
 div.section2-images {
@@ -15,6 +17,9 @@ div.section2-images {
   color: black;
   width: 400px;
 }
+/*div.section2-images p {
+  padding-bottom: 60px;
+}*/
 div.section2-general  {
   display: flex;
   justify-content: center;
@@ -26,21 +31,6 @@ div.leftsection3  {
 /*Grey section code formatting*/
 section.section2  {
   background-color: #F4F4F4;
-}
-/* footers don't need classes as they should be standardized across all pages*/
-footer  {
-  background-color: rgb(49, 95, 112);
-  color: #b3b3b3;
-}
-footer p  {
-  color: #b3b3b3;
-}
-/*Copyright text*/
-footer p.below-text {
-  text-align: center;
-  border-top: 1px solid white;
-  padding-top: 0.5em;
-  padding-bottom: 2em;
 }
 /* This is supposed to format the text including "contact us" over its respective
 image */
@@ -54,4 +44,7 @@ div.text-image-container  {
   position: relative;
   text-align: center;
   color: black;
+}
+div.forum-button-container  {
+  width: 100%;
 }

@@ -7,11 +7,14 @@ li.nav {
 a.nav  {
   display: inline-block;
   text-decoration: none;
-  color: #b3b3b3;
+  color: #BEAE7F;
   font-size: 1em;
   vertical-align: middle;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+}
+a.nav:hover {
+  color: white;
 }
 /*Sets the overall color of the navbar, handles overall values*/
 ul.nav {
@@ -31,5 +34,23 @@ li.logo {
 /*Note important that the size of the image is correct*/
 img.logo  {
   display: inline-block;
-  padding: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+button.nav-button {
+  background-color: #315e71;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 6px 15px 10px 15px;
+/*top, right, bottom, left padding*/
+  position: relative;
+  margin-top: 10px;
+  border: 3px solid #BEAE7F;
+/*the tan color commonly used*/
+  color: #BEAE7F;
+}
+button.nav-button:hover {
+  background-color: #BEAE7F;
+  color: white;
 }

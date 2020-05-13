@@ -1,0 +1,19 @@
+/* footers don't need classes as they should be standardized across all pages*/
+footer  {
+  background-color: rgb(49, 95, 112);
+  color: #b3b3b3;
+}
+footer p  {
+  color: #b3b3b3;
+}
+footer p a  {
+  text-decoration: none;
+  color: inherit;
+}
+/*Copyright text*/
+footer p.below-text {
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}

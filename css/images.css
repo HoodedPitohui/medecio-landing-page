@@ -1,3 +1,4 @@
+/*Images formatting css group*/
 img.section1  {
   margin-left: auto;
   margin-right: auto;
@@ -8,4 +9,18 @@ img.section1  {
 img.section3  {
   width: 35%;
   float: right;
+  padding-right: 40px;
+}
+img.question {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*Another part of logo in the navbar*/
+/*Note important that the size of the image is correct*/
+img.logo  {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 10px;
 }

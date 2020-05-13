@@ -1,15 +1,20 @@
 /*Subtitles are used in between sections, ensures formatting is constant*/
 h1.subtitle {
   text-align: center;
-  padding: 25px 50px 15px 50px;
+  padding: 70px 50px 0px 50px;
   /*top, right, bottom, left padding*/
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 450;
 }
 h6.subgroup {
   text-align: center;
   color: #6e6e6e;
   font-size: 1.0625em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 50;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 footer h3 {
     color: #b3b3b3;
@@ -18,9 +23,12 @@ footer h3 {
 }
 h1.subtitle-left {
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 450;
 }
 h6.subgroup-left  {
-  color: #6e6e6e;
   font-size: 1.0625em;
+  padding-right: 800px;
+  color: #6e6e6e;
+  padding-top: 10px;
+  font-weight: 50;
 }
