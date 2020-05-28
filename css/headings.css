@@ -21,9 +21,11 @@ footer h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
+/*Recode this as div elements*/
 h1.subtitle-left {
   font-size: 40px;
   font-weight: 450;
+  float: left;
 }
 h6.subgroup-left  {
   font-size: 1.0625em;
@@ -31,4 +33,5 @@ h6.subgroup-left  {
   color: #6e6e6e;
   padding-top: 10px;
   font-weight: 50;
+  float: left;
 }

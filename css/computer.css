@@ -1,0 +1,18 @@
+li.nav  {
+  display: inline;
+  border: 0em;
+}
+ul.nav  {
+  position: fixed;
+  height: 3.75em;
+}
+a.nav {
+  display: inline-block;
+  font-size: 1em;
+  padding: 1.25em;
+  text-align: center;
+}
+li.logo {
+  display: inline;
+  float: left;
+}

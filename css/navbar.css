@@ -1,16 +1,13 @@
 /*navbar structure code*/
 /*Overall sublist element organization*/
 li.nav {
-  display: inline;
+  border: 0.125em solid #BEAE7F;
 }
 /*Handles the text around the navbar*/
 a.nav  {
-  display: inline-block;
   text-decoration: none;
   color: #BEAE7F;
-  font-size: 1em;
   vertical-align: middle;
-  padding: 20px;
   text-align: center;
 }
 a.nav:hover {
@@ -21,14 +18,14 @@ ul.nav {
   margin: 0;
   list-style: none;
   background-color: #315e71;
-  height: 60px;
   text-align: center;
+  width: 100%;
 }
 /*logo in the navbar*/
 li.logo {
-  display: inline;
-  position: relative;
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Another part of logo in the navbar*/
 /*Note important that the size of the image is correct*/
