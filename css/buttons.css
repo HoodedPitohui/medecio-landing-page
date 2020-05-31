@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 button.go-forum {
-  border-radius: 50px;
-  border: 3px solid #26d254;
-  padding: 10px 15px 10px 15px;
+  border-radius: 3.125em;
+  border: 0.188em solid #26d254;
+  padding: 0.625em 0.938em 0.625em 0.938em;
   color: #26d254;
   position: absolute;
   left: 44%;
@@ -21,14 +20,14 @@ button.log-in:hover {
 }
 button.nav-button {
   background-color: #315e71;
-  height: 40px;
-  border-radius: 50px;
-  margin-left: 20px;
-  padding: 6px 15px 10px 15px;
+  height: 2.5em;
+  border-radius: 3.125em;
+  margin-left: 1.25em;
+  padding: 0.375em 0.938em 0.625em 0.938em;
 /*top, right, bottom, left padding*/
   position: relative;
-  margin-top: 10px;
-  border: 3px solid #BEAE7F;
+  margin-top: 0.625em;
+  border: 0.188em solid #BEAE7F;
 /*the tan color commonly used*/
   color: #BEAE7F;
 }
@@ -38,50 +37,6 @@ button.nav-button:hover {
 }
 /*Contact Us Will Become a Button*/
 button.contact-us {
-  border-radius: 50px;
+  border-radius: 3.125em;
   color: rgb(49, 95, 112);
 }
-=======
-button.go-forum {
-  border-radius: 50px;
-  border: 3px solid #26d254;
-  padding: 10px 15px 10px 15px;
-  color: #26d254;
-  position: absolute;
-  left: 44%;
-  right: 44%;
-}
-button.go-forum:hover {
-  color: white;
-  background-color: #26d254;
-}
-button  {
-  font-family: 'Poppins', sans-serif;
-}
-button.log-in:hover {
-  color: white;
-  background-color: #315f70;
-}
-button.nav-button {
-  background-color: #315e71;
-  height: 40px;
-  border-radius: 50px;
-  margin-left: 20px;
-  padding: 6px 15px 10px 15px;
-/*top, right, bottom, left padding*/
-  position: relative;
-  margin-top: 10px;
-  border: 3px solid #BEAE7F;
-/*the tan color commonly used*/
-  color: #BEAE7F;
-}
-button.nav-button:hover {
-  background-color: #BEAE7F;
-  color: white;
-}
-/*Contact Us Will Become a Button*/
-button.contact-us {
-  border-radius: 50px;
-  color: rgb(49, 95, 112);
-}
->>>>>>> c0365c887a8d7a13fa5ddcbf7b8224ca3ed2a89e

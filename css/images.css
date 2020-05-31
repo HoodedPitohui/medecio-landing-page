@@ -9,7 +9,7 @@ img.section1  {
 img.section3  {
   width: 35%;
   float: right;
-  padding-right: 40px;
+  padding-right: 2.5em;
 }
 img.question {
   width: 75%;
@@ -21,6 +21,6 @@ img.question {
 /*Note important that the size of the image is correct*/
 img.logo  {
   display: inline-block;
-  margin-left: 50px;
-  margin-top: 10px;
+  margin-left: 3.125em;
+  margin-top: 0.625em;
 }

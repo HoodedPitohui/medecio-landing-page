@@ -8,6 +8,7 @@ a.nav  {
   text-decoration: none;
   color: #BEAE7F;
   vertical-align: middle;
+  padding: 0;
   text-align: center;
 }
 a.nav:hover {
@@ -31,19 +32,19 @@ li.logo {
 /*Note important that the size of the image is correct*/
 img.logo  {
   display: inline-block;
-  margin-left: 50px;
-  margin-top: 10px;
+  margin-left: 3.125em;
+  margin-top: 0.625em;
 }
 button.nav-button {
   background-color: #315e71;
-  height: 40px;
-  border-radius: 50px;
-  margin-left: 20px;
-  padding: 6px 15px 10px 15px;
+  height: 2.5em;
+  border-radius: 3.125em;
+  margin-left: 1.25em;
+  padding: 0.375em 0.938em 0.625em 0.938em;
 /*top, right, bottom, left padding*/
   position: relative;
-  margin-top: 10px;
-  border: 3px solid #BEAE7F;
+  margin-top: 0.625em;
+  border: 0.188em solid #BEAE7F;
 /*the tan color commonly used*/
   color: #BEAE7F;
 }
